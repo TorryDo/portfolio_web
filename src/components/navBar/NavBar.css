@@ -1,0 +1,18 @@
+#NavBar {
+  width: 100vw;
+  height: 50vh;
+
+  position: absolute;
+
+  z-index: 1;
+}
+
+#NavBar .NavBar--release {
+  width: 30vw;
+  height: 50vh;
+  margin: auto;
+
+  border-radius: 0 0 25px 25px;
+
+  background-color: #00de7a;
+}
