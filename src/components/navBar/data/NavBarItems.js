@@ -1,31 +1,27 @@
 export const NavBarItems = [
     {
-        title : 'Android Developer',
-        url : '#',
-        cName : 'item'
-    },
-    {
-        title : 'TRI',
-        url : '#'
-    },
-    {
         title : 'Home',
-        url: '#'
+        url: '#',
+        cName: 'NavBar--item'
     },
     {
         title : 'About',
-        url : '#'
+        url: '#',
+        cName: 'NavBar--item'
     },
     {
         title : 'Projects',
-        url : '#'
+        url: '#',
+        cName: 'NavBar--item'
     },
     {
         title : 'Skills',
-        url : '#'
+        url: '#',
+        cName: 'NavBar--item'
     },
     {
         title : 'Contact',
-        url : '#'
+        url: '#',
+        cName: 'NavBar--item'
     }
 ]

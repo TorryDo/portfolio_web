@@ -1,18 +1,42 @@
 #NavBar {
   width: 100vw;
-  height: 50vh;
+  height: 8vh;
 
   position: absolute;
 
-  z-index: 1;
+  background-color: #72f476;
+  box-shadow: 0 0 7px #006336;
+
+  /* config children */
+
+  display: flex;
+  flex-direction: row;
 }
 
-#NavBar .NavBar--release {
-  width: 30vw;
-  height: 50vh;
-  margin: auto;
+#NavBar .NavBar--MainTitle {
+  width: 15%;
+  height: 100%;
 
-  border-radius: 0 0 25px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  background-color: #00de7a;
+  font-weight: 700;
+  font-size: large;
+}
+
+#NavBar .NavBar--Options {
+  width: 85%;
+  height: 100%;
+
+  margin-top: 0;
+  font-weight: 600;
+
+  /* config children */
+  padding-right: 10%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5%;
 }
