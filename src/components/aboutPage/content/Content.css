@@ -1,0 +1,49 @@
+.Content{
+    width: 40vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Content > p {
+    color: gray;
+    font-size: large;
+    margin-left: 50px;
+}
+
+.Content--achievement{
+
+    margin-left: 70px;
+    margin-bottom: 25%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    gap: 8vw;
+
+    padding-bottom: 0;
+
+}
+
+/* ACHIEVEMENT ITEM */
+.Content--achievement--item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.Content--achievement--item .num {
+
+    color: black;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+}
+.Content--achievement--item .des {
+    color: gray;
+    font-weight: 600;
+    
+    letter-spacing: 2px;
+}

@@ -2,7 +2,7 @@
   width: 100vw;
   height: 8vh;
 
-  position: absolute;
+  position: fixed;
 
   background-color: #72f476;
   box-shadow: 0 0 7px #006336;
