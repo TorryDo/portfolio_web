@@ -1,6 +1,7 @@
 import react from "react";
 import './ProjectPage.css';
 import { Title } from "../../container/title/Title";
+import { HorizontalList } from "./horizontalList/HorizontalList"
 
 export const ProjectPage = () => {
 
@@ -10,6 +11,9 @@ export const ProjectPage = () => {
                 title="Projects"
                 description="Completed Projects"
             />
+
+            <HorizontalList/>
+
         </div>
     );
 }

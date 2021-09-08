@@ -1,9 +1,15 @@
+/* .TitleAndDescription{
+  height: 10vh;
+  background-color:aquamarine;
+} */
+
 .TitleAndDescription .title {
   text-align: center;
 
   font-size: xx-large;
   font-weight: 700;
 }
+
 .TitleAndDescription .description {
   text-align: center;
   color: gray;

@@ -1,0 +1,49 @@
+.HorizontalList {
+  margin-top: 5vh;
+
+  width: 100vw;
+  height: 70vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8vw;
+
+  /* background-color: aquamarine; */
+}
+
+.HorizontalList--leftArrow {
+  width: 40px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.HorizontalList--rightArrow {
+  width: 40px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.HorizontalList--arrowIcon {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  background: url(../../../assets/svg/right_arrow.svg);
+  background-color: #72f476;
+}
+
+.HorizontalList--body {
+  width: 60vw;
+  height: 100%;
+  background-color: gray;
+}
+
+.HorizontalList--item{
+  
+}
