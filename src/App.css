@@ -1,1 +1,17 @@
+.SkillsPage{
 
+    margin-top: 15vh;
+
+    width: 100vw;
+    height: 100vh;
+
+
+    /* background-color: aquamarine; */
+}
+
+.ContactPage{
+    width: 100vw;
+    height: 100vh;
+
+    margin-top: 15vh;
+}

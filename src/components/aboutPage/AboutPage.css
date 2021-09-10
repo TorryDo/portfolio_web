@@ -24,15 +24,14 @@
 }
 
 /* BOT */
-.AboutPage--bot {
-
+.AboutPage--button {
   margin-top: 3vh;
 
-  padding-left: 10px;
-  padding-right: 10px;
-
-  background-color: #72f476;
-  border-radius: 10px;
+  width: fit-content;
 
   font-weight: 600;
+
+  padding: 0 20px;
+  border-radius: 10px;
+  background-color: #72f476;
 }

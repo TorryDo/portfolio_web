@@ -6,4 +6,26 @@
     /* background-color: blue; */
 }
 
+.ProjectPage--3dots{
+    padding-top: 8vh;
+
+    width: 50%;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    gap: 15px;  
+}
+.ProjectPage--3dots div{
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+    
+    /* background-color: #72f476; */
+    background-color: rgb(182, 182, 182);
+}
+
 

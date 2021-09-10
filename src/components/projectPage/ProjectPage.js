@@ -14,6 +14,12 @@ export const ProjectPage = () => {
 
             <HorizontalList/>
 
+            <div className="ProjectPage--3dots">
+                <div id="dot1" />
+                <div id="dot2" />
+                <div id="dot3" />
+            </div>
+
         </div>
     );
 }

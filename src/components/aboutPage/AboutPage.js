@@ -19,7 +19,7 @@ export const AboutPage = () => {
                 <Content/>
             </div>
 
-            <div className="AboutPage--bot">
+            <div className="AboutPage--button">
                 <p>Download CV</p>
             </div>
 

@@ -1,0 +1,90 @@
+.SkillsPage--HList{
+
+    margin-top: 5vh;
+    
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    /* background-color: aquamarine; */
+}
+
+.SkillsPage--HList--android{
+    width: 25%;
+    height: 90%;
+
+    margin: auto;
+
+    border-radius: 25px;
+    box-shadow: 0 0 15px gray;
+
+    /* background-color: bisque; */
+}
+
+.SkillsPage--HList--design{
+    width: 25%;
+    height: 90%;
+
+    margin: auto;
+
+    border-radius: 25px;
+    box-shadow: 0 0 15px gray;
+
+    /* background-color: bisque; */
+}
+
+.SkillsPage--HList--itemTitle{
+    width: 100%;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* background-color: blue; */
+}
+.SkillsPage--HList--itemTitle > img{
+    width: 35px;
+    height: 35px;
+
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: purple;
+}
+.SkillsPage--HList--itemTitle .title{
+    margin-top: 5px;
+
+    width: 100%;
+
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    /* color: gray; */
+}
+.android--description{
+    width: 100%;
+    height: auto;
+
+    margin-top: 15%;
+}
+.android--item{
+
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 10px;
+    margin-left: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 5px;
+
+    font-weight: 600;
+}
