@@ -2,11 +2,13 @@ import React from "react";
 import { Title } from "../../container/title/Title";
 import './SkillsPage.css';
 
+import rightArrow from '../../assets/svg/right_arrow.svg';
+
 export const SkillsPage = ({ className }) => {
 
     const androidSkill = {
         color: '#E33801',
-        img: '../../../assets/svg/right_arrow.svg',
+        img: { rightArrow },
         text: 'Android',
         itemList: [
             '• Git|Kotlin',
@@ -20,7 +22,7 @@ export const SkillsPage = ({ className }) => {
     };
     const designSkill = {
         color: '#00B105',
-        img: '../../../assets/svg/right_arrow.svg',
+        img: { rightArrow },
         text: 'Design',
         itemList: [
             {
