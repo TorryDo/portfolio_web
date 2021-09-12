@@ -3,7 +3,9 @@ import { NavBarItems } from "./data/NavBarItems";
 import "./NavBar.css";
 import { NavItem } from "./NavItem";
 
-function NavBar() {
+function NavBar(
+    {className}
+) {
 
     const navItem = (it, index) =>
         <NavItem
@@ -16,7 +18,7 @@ function NavBar() {
     const MAIN_TITLE = "TRI"
 
     return (
-        <div id="NavBar">
+        <div className={className}>
 
             <div className="NavBar--MainTitle">
                 {MAIN_TITLE}

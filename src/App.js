@@ -8,9 +8,9 @@ import { ContactPage } from "./components/contactPage/ContactPage.js";
 function App() {
   return (
     <div id="App">
-      <NavBar/>
-      <AboutPage/>
-      <ProjectPage/>
+      <NavBar className="NavBar"/>
+      <AboutPage className="AboutPage"/>
+      <ProjectPage className="ProjectPage"/>
       <SkillsPage className="SkillsPage"/>
       <ContactPage className="ContactPage"/>
     </div>

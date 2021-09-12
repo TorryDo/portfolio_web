@@ -12,7 +12,7 @@ export const SkillsPage = ({ className }) => {
         img: <FaAndroid size="100%" color="#00B105" />,
         text: 'Android',
         itemList: [
-            '• Git|Kotlin',
+            '• Git | Kotlin',
             '• MVVM structure',
             '• Firebase DB | Room DB',
             '• Android Jetpack',
@@ -27,32 +27,34 @@ export const SkillsPage = ({ className }) => {
         text: 'Design',
         itemList: [
             {
-                img: './sdf',
+                img: <RiPencilFill size="100%" color="#E33801" />,
                 text: 'Take a quick look',
                 urlText: 'Figma',
                 url: 'https://figma.com'
             },
             {
-                img: './sdf',
+                img: <RiPencilFill size="100%" color="#E33801" />,
                 text: 'Take a quick look',
                 urlText: 'Illustrator',
-                url: 'https://figma.com'
+                url: 'https://adobe.com'
             },
             {
-                img: './sdf',
+                img: <RiPencilFill size="100%" color="#E33801" />,
                 text: 'Take a quick look',
                 urlText: 'After Effects',
-                url: 'https://figma.com'
+                url: 'https://adobe.com'
             },
         ]
     };
+
+    // ------------------ Abyss below ---------------------
 
     const itemTitle = (img, text) =>
         <div className="SkillsPage--HList--itemTitle">
             <div className="wrapper">
                 {img}
             </div>
-            
+
             <div className="title">{text}</div>
         </div>
 
@@ -75,10 +77,16 @@ export const SkillsPage = ({ className }) => {
         <div className="SkillsPage--HList--design">
             {itemTitle(data.img, data.text)}
 
-            <div className="design--description">
-                {data.itemList.map(it =>
+            <div className="design--body">
+                {data.itemList.map((it, index) =>
                     <div className="design--item">
-                        dsc
+                        <div className="iconWrapper">
+                            {it.img}
+                        </div>
+
+                        <p>
+                            {it.text} : <a href={it.url} id={index}>{it.urlText}</a>
+                        </p>
                     </div>
                 )}
             </div>

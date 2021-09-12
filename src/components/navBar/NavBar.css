@@ -1,19 +1,5 @@
-#NavBar {
-  width: 100vw;
-  height: 8vh;
 
-  position: fixed;
-
-  background-color: #72f476;
-  box-shadow: 0 0 7px #006336;
-
-  /* config children */
-
-  display: flex;
-  flex-direction: row;
-}
-
-#NavBar .NavBar--MainTitle {
+.NavBar .NavBar--MainTitle {
   width: 15%;
   height: 100%;
 
@@ -25,7 +11,7 @@
   font-size: large;
 }
 
-#NavBar .NavBar--Options {
+.NavBar .NavBar--Options {
   width: 85%;
   height: 100%;
 
