@@ -47,7 +47,7 @@
 
     /* background-color: blue; */
 }
-.SkillsPage--HList--itemTitle > img{
+.SkillsPage--HList--itemTitle .wrapper{
     width: 35px;
     height: 35px;
 
@@ -55,7 +55,6 @@
     margin-right: auto;
     margin-left: auto;
 
-    background-color: purple;
 }
 .SkillsPage--HList--itemTitle .title{
     margin-top: 5px;

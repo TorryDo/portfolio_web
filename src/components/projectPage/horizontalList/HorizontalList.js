@@ -1,6 +1,9 @@
 import './HorizontalList.css';
 import { ListProject } from './data/ListProject';
 
+import { FiChevronLeft } from 'react-icons/fi';
+import { FiChevronRight } from 'react-icons/fi';
+
 export const HorizontalList = () => {
 
     const PROJECT_REGEX = new RegExp('TorryDo.\\w+')
@@ -23,8 +26,11 @@ export const HorizontalList = () => {
 
     return (
         <div className="HorizontalList">
-            <div className="HorizontalList--leftArrow" >
-                <image className="HorizontalList--arrowIcon" />
+            <div className="HorizontalList--arrowIcon" >
+                <div className="HorizontalList--leftArrow">
+                    <FiChevronLeft size="100%"/>
+                </div>
+                
             </div>
 
             <div className="HorizontalList--body" >
@@ -33,8 +39,10 @@ export const HorizontalList = () => {
                 }
             </div>
 
-            <div className="HorizontalList--rightArrow" >
-                <image className="HorizontalList--arrowIcon" />
+            <div className="HorizontalList--arrowIcon" >
+                <div className="HorizontalList--rightArrow">
+                    <FiChevronRight size="100%"/>
+                </div>
             </div>
         </div>
     );

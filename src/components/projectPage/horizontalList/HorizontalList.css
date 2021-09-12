@@ -12,29 +12,31 @@
   /* background-color: aquamarine; */
 }
 
-.HorizontalList--leftArrow {
-  width: 40px;
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.HorizontalList--rightArrow {
-  width: 40px;
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .HorizontalList--arrowIcon {
   width: 40px;
-  height: 40px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.HorizontalList--leftArrow {
+  width: 30px;
+  height: 30px;
+
+  padding: 5px;
 
   border-radius: 50%;
-  background: url(../../../assets/svg/right_arrow.svg);
+  background-color: #72f476;
+}
+
+.HorizontalList--rightArrow {
+  width: 30px;
+  height: 30px;
+
+  padding: 5px;
+
+  border-radius: 50%;
   background-color: #72f476;
 }
 

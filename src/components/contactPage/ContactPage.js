@@ -1,9 +1,9 @@
 import './ContactPage.css';
 import { Title } from "../../container/title/Title";
 
-import telephone from "../../assets/svg/telephone.svg"
-import letter from "../../assets/svg/letter.svg"
-import location from "../../assets/svg/location.svg"
+import { FiPhone } from "react-icons/fi";
+import { HiOutlineMail } from "react-icons/hi";
+import { GrLocation } from "react-icons/gr";
 
 export const ContactPage = (
     { className }
@@ -11,37 +11,22 @@ export const ContactPage = (
 
     const infos = [
         {
-            img: { telephone },
+            img: <FiPhone size="100%"/>,
             title: 'Call me',
             content: '(+84)369 239 202',
             cName: 'info'
         },
         {
-            img: { letter },
+            img: <HiOutlineMail size="100%"/>,
             title: 'Email',
             content: 'tridonguyen392@gmail.com',
             cName: 'info'
         },
         {
-            img: { location },
+            img: <GrLocation size="100%"/>,
             title: 'Location',
             content: 'Thu Duc, Long Truong, Nguyen Duy Trinh',
             cName: 'info'
-        },
-    ];
-
-    const forms = [
-        {
-            cName: 'form--name',
-            hint: 'name',
-        },
-        {
-            cName: 'form--email',
-            hint: 'email'
-        },
-        {
-            cName: 'form--message',
-            hint: 'message'
         },
     ];
 
@@ -56,7 +41,11 @@ export const ContactPage = (
                         infos.map(it =>
                             <div className={it.cName}>
 
-                                <img src={it.img} alt="icon" />
+                                {/* <img src={it.img} alt="icon" /> */}
+                                <div className="img">
+                                    {it.img}
+                                </div>
+
 
                                 <div className="wrapper">
                                     <div className="title">
@@ -72,16 +61,33 @@ export const ContactPage = (
                     }
                 </div>
                 <div className="Contact--body--form">
-                    {
-                        forms.map(it =>
-                                <input 
-                                className={it.cName} 
-                                type="text" 
-                                name="name"
-                                placeholder={it.hint}
-                                />
-                        )
-                    }
+                    <input
+                        className='form--name'
+                        type="text"
+                        name="name"
+                        placeholder='Name'
+                    />
+                    <input
+                        className='form--email'
+                        type="text"
+                        name="name"
+                        placeholder='Email'
+                    />
+                    <textarea
+                        className='form--message'
+                        rows="8"
+                        type="textarea"
+                        name="name"
+                        placeholder='Message'
+                    />
+
+                    <input
+                        className="form--button"
+                        type="button"
+                        placeholder="click me"
+                        value="Send message"
+                    />
+
                 </div>
             </div>
 

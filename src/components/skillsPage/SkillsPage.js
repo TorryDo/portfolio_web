@@ -2,13 +2,14 @@ import React from "react";
 import { Title } from "../../container/title/Title";
 import './SkillsPage.css';
 
-import rightArrow from '../../assets/svg/right_arrow.svg';
+import { FaAndroid } from 'react-icons/fa';
+import { RiPencilFill } from 'react-icons/ri';
 
 export const SkillsPage = ({ className }) => {
 
     const androidSkill = {
         color: '#E33801',
-        img: { rightArrow },
+        img: <FaAndroid size="100%" color="#00B105" />,
         text: 'Android',
         itemList: [
             '• Git|Kotlin',
@@ -22,7 +23,7 @@ export const SkillsPage = ({ className }) => {
     };
     const designSkill = {
         color: '#00B105',
-        img: { rightArrow },
+        img: <RiPencilFill size="100%" color="#E33801" />,
         text: 'Design',
         itemList: [
             {
@@ -48,7 +49,10 @@ export const SkillsPage = ({ className }) => {
 
     const itemTitle = (img, text) =>
         <div className="SkillsPage--HList--itemTitle">
-            <img src={img} alt="plc" />
+            <div className="wrapper">
+                {img}
+            </div>
+            
             <div className="title">{text}</div>
         </div>
 

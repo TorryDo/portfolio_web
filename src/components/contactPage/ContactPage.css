@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  gap: 20px;
+  gap: 30px;
 
   /* background-color: aquamarine; */
 }
@@ -28,14 +28,14 @@
   flex-direction: row;
   justify-content: baseline;
 
-  gap: 10px;
+  gap: 30px;
 }
 
-.Contact--body--information img {
-  width: 50px;
+.Contact--body--information .img {
+  width: 30px;
   height: 50px;
 
-  background-color: purple;
+  /* background-color: purple; */
 }
 
 .Contact--body--information .title {
@@ -66,10 +66,12 @@
   border-radius: 10px;
   outline: none;
   border: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 10px;
+
+  font-family: 'Quicksand';
 
   background-color: #d9ffda;
+  font-weight: 600;
 }
 .Contact--body--form .form--email {
   width: 50%;
@@ -78,10 +80,12 @@
   border-radius: 10px;
   outline: none;
   border: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 10px;
 
   background-color: #d9ffda;
+
+  font-family: 'Quicksand';
+  font-weight: 600;
 }
 .Contact--body--form .form--message {
   width: 70%;
@@ -90,10 +94,27 @@
   border-radius: 10px;
   outline: none;
   border: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 10px;
 
   background-color: #d9ffda;
+
+  font-family: 'Quicksand';
+  font-weight: 600;
 }
 
-/* .Contact--body--form .form--nameinput */
+.Contact--body--form .form--button {
+  width: fit-content;
+  height: fit-content;
+
+  margin-top: 20px;
+  padding: 15px;
+
+  border: 0;
+  border-radius: 10px;
+
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-size: medium;
+
+  background-color: #78F27B;
+}
