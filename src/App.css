@@ -6,6 +6,7 @@
 
   background-color: #72f476;
   box-shadow: 0 0 10px #006336;
+  z-index: 1;
 
   /* config children */
 
@@ -50,3 +51,5 @@
 
   /* background-color: teal; */
 }
+
+
