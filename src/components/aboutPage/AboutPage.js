@@ -12,7 +12,7 @@ export const AboutPage = (
 ) => {
 
     const MY_NAME = 'Nguyen Do Tri';
-    const MY_AGE = 19;
+    const MY_AGE = '19';
     const MY_LITERACY = '2nd year student of PTIT university';
 
     const MY_DESCRIPTION = () =>
@@ -38,13 +38,13 @@ export const AboutPage = (
 
     // ---------------------------- abyss below -----------------------------
 
-    const avatar = () =>
-        <div className="Avatar">
+    const avt = () =>
+        <div className="avt">
             <div
-                className="Avatar--image"
-                alt="avatar"
+                className="avt-img"
+                alt="avt"
             />
-            <div className="Avatar--description" >
+            <div className="avt-description" >
                 <p>
                     <b>Name</b> : {MY_NAME}
                 </p>
@@ -58,7 +58,7 @@ export const AboutPage = (
         </div>
 
     const myAchivement = (it) =>
-        <div className="Content--achievement--item">
+        <div className="Content-achievement-item">
             <div className="num">{it.num}</div>
             <div className="des">{it.description}</div>
         </div>
@@ -68,7 +68,7 @@ export const AboutPage = (
             <p>
                 {MY_DESCRIPTION()}
             </p>
-            <div className="Content--achievement">
+            <div className="Content-achievement">
                 {
                     achievements.map(it =>
                         myAchivement(it)
@@ -87,14 +87,14 @@ export const AboutPage = (
                 description="My Introduction"
             />
 
-            <div className="AboutPage--mid">
-                {avatar()}
+            <div className="AboutPage-mid">
+                {avt()}
                 {myContent()}
             </div>
 
-            <div className="AboutPage--button">
-                <p>Download CV</p>
-                <div className="wrapper">
+            <div className="btn btn-downl">
+                <div className="btn-downl__txt">Download CV</div>
+                <div className="btn-downl__icon">
                     <HiDownload size="100%" />
                 </div>
 

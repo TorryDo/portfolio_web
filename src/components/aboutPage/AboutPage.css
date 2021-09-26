@@ -1,5 +1,4 @@
-
-.AboutPage--mid {
+.AboutPage-mid {
   width: 100vw;
   margin-top: 8vh;
   display: flex;
@@ -9,7 +8,7 @@
   /* background-color: aquamarine; */
 }
 
-.Avatar {
+.avt {
   /* width: 40vw; */
   display: flex;
   flex-direction: column;
@@ -18,7 +17,7 @@
   /* background-color: aquamarine; */
 }
 
-.Avatar--image {
+.avt-img {
   width: 15vw;
   height: 15vw;
 
@@ -26,82 +25,74 @@
   background-size: cover;
 }
 
-.Avatar--description {
+.avt-description {
   width: 70%;
   margin-top: 20px;
   text-align: start;
   /* background-color: blueviolet; */
 }
 
-.Content{
-    width: 40vw;
-    /* background-color: aquamarine; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+.Content {
+  width: 40vw;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .Content > p {
-    color: gray;
-    font-size: large;
-    margin-left: 50px;
+  color: gray;
+  font-size: large;
+  margin-left: 50px;
 }
 
-.Content--achievement{
-
-    margin-left: 70px;
-    margin-bottom: 25%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    gap: 8vw;
-
-    padding-bottom: 0;
-
-}
-
-/* ACHIEVEMENT ITEM */
-.Content--achievement--item{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2vh;
-}
-.Content--achievement--item .num {
-
-    color: black;
-    font-size: xx-large;
-    font-weight: 700;
-    text-align: center;
-}
-.Content--achievement--item .des {
-    color: gray;
-    font-weight: 600;
-    
-    letter-spacing: 2px;
-}
-
-/* BOT */
-.AboutPage--button {
-  margin-top: 50px;
-
-  width: fit-content;
-
-  font-weight: 700;
-
-  padding: 5px 25px;
-  border-radius: 10px;
-  background-color: #72f476;
+.Content-achievement {
+  margin-left: 70px;
+  margin-bottom: 25%;
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 20px;
+  justify-content: baseline;
+  gap: 8vw;
+
+  padding-bottom: 0;
 }
 
-.AboutPage--button .wrapper{
+/* ACHIEVEMENT ITEM */
+.Content-achievement-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vh;
+}
+.Content-achievement-item .num {
+  color: black;
+  font-size: xx-large;
+  font-weight: 700;
+  text-align: center;
+}
+.Content-achievement-item .des {
+  color: gray;
+  font-weight: 600;
+
+  letter-spacing: 2px;
+}
+
+/* BOT */
+
+.btn-downl{
+  margin-top: 50px;
+}
+
+.btn-downl__txt{
+  margin-top: auto;
+  margin-bottom: auto;
+  /* background-color: antiquewhite; */
+}
+
+.btn-downl__icon {
   width: 30px;
   height: 100%;
+
+  /* background-color: aqua; */
 }

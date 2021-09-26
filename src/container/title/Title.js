@@ -8,9 +8,9 @@ export const Title = (
 ) => {
 
     return (
-        <div className="TitleAndDescription">
-            <div className="title">{title}</div>
-            <div className="description">{description}</div>
+        <div className="top-title">
+            <div className="top-title__title">{title}</div>
+            <div className="top-title__content">{description}</div>
         </div>
     );
 }

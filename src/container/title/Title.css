@@ -1,16 +1,12 @@
-/* .TitleAndDescription{
-  height: 10vh;
-  background-color:aquamarine;
-} */
 
-.TitleAndDescription .title {
+.top-title__title {
   text-align: center;
 
   font-size: xx-large;
   font-weight: 700;
 }
 
-.TitleAndDescription .description {
+.top-title__content {
   text-align: center;
   color: gray;
 }
