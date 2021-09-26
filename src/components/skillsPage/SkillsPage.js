@@ -50,22 +50,22 @@ export const SkillsPage = ({ className }) => {
     // ------------------ Abyss below ---------------------
 
     const itemTitle = (img, text) =>
-        <div className="SkillsPage--HList--itemTitle">
-            <div className="wrapper">
+        <div className="card-top">
+            <div className="card-top__img">
                 {img}
             </div>
 
-            <div className="title">{text}</div>
+            <div className="card-top__title">{text}</div>
         </div>
 
 
     const androidItem = (data) =>
-        <div className="SkillsPage--HList--android">
+        <div className="card-android">
             {itemTitle(data.img, data.text)}
 
-            <div className="android--description">
+            <div className="card-android__content">
                 {data.itemList.map(it =>
-                    <div className="android--item">
+                    <div className="android-item">
                         {it}
                     </div>
                 )}
@@ -74,13 +74,14 @@ export const SkillsPage = ({ className }) => {
         </div>
 
     const designItem = (data) =>
-        <div className="SkillsPage--HList--design">
+        <div className="card-design">
             {itemTitle(data.img, data.text)}
 
-            <div className="design--body">
+            <div className="card-design__content">
                 {data.itemList.map((it, index) =>
-                    <div className="design--item">
-                        <div className="iconWrapper">
+
+                    <div className="design-item">
+                        <div className="design-item__iconWrapper">
                             {it.img}
                         </div>
 
@@ -88,6 +89,7 @@ export const SkillsPage = ({ className }) => {
                             {it.text} : <a href={it.url} id={index}>{it.urlText}</a>
                         </p>
                     </div>
+
                 )}
             </div>
         </div>
@@ -100,7 +102,7 @@ export const SkillsPage = ({ className }) => {
                 description="Get in touch"
             />
 
-            <div className="SkillsPage--HList">
+            <div className="Hlist skills">
                 {androidItem(androidSkill)}
                 {designItem(designSkill)}
             </div>

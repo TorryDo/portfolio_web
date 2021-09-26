@@ -1,29 +1,27 @@
-.Contact--body {
+.contact {
   width: 100%;
   height: 100%;
 
   margin-top: 80px;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 100px;
+  justify-content: baseline;
+  /* gap: 100px; */
 }
 
-.Contact--body--information {
+/* INFORMATION */
+
+.contact__information {
   width: 50%;
   height: 100%;
 
   margin-left: 10vw;
 
-  display: flex;
-  flex-direction: column;
   justify-content: baseline;
   gap: 30px;
 
   /* background-color: aquamarine; */
 }
-.Contact--body--information .info {
+.contact__information .info {
   display: flex;
   flex-direction: row;
   justify-content: baseline;
@@ -31,35 +29,36 @@
   gap: 30px;
 }
 
-.Contact--body--information .img {
+.contact__information .img {
   width: 30px;
   height: 50px;
 
   /* background-color: purple; */
 }
 
-.Contact--body--information .title {
+.contact__information .title {
   font-weight: 700;
   font-size: large;
 
   margin-bottom: 5px;
 }
-.Contact--body--information .content {
+.contact__information .content {
   color: grey;
 }
 
-.Contact--body--form {
-  width: 50%;
+/* FORM */
+
+.contact__form {
+  width: 70%;
   height: 100%;
 
-  display: flex;
-  flex-direction: column;
   justify-content: baseline;
 
   gap: 40px;
+  /* background-color: antiquewhite; */
 }
 
-.Contact--body--form .form--name {
+.contact__form .name {
   width: 50%;
   height: 35px;
 
@@ -73,7 +72,7 @@
   background-color: #d9ffda;
   font-weight: 600;
 }
-.Contact--body--form .form--email {
+.contact__form .email {
   width: 50%;
   height: 35px;
 
@@ -87,7 +86,7 @@
   font-family: 'Quicksand';
   font-weight: 600;
 }
-.Contact--body--form .form--message {
+.contact__form .message {
   width: 70%;
   height: 150px;
 
@@ -95,6 +94,7 @@
   outline: none;
   border: 0;
   padding: 5px 10px;
+  resize: none;
 
   background-color: #d9ffda;
 
@@ -102,7 +102,7 @@
   font-weight: 600;
 }
 
-.Contact--body--form .form--button {
+.btn-send {
   width: fit-content;
   height: fit-content;
 

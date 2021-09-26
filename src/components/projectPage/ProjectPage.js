@@ -76,8 +76,8 @@ export const ProjectPage = (
     // ------------------ abyss below -----------------------
 
     const item = (data) =>
-        <div className="HorizontalList--item">
-            <div className="item--leftDescription">
+        <div className="hlist-item">
+            <div className="item-leftDescription">
 
                 <h1 id={data.mainColor}>{data.title}</h1>
 
@@ -88,9 +88,9 @@ export const ProjectPage = (
                     <div><b>Source Code</b> : {PROJECT_REGEX.exec(data.sourceCodeUrl)} </div>
                 </div>
 
-                <div className="Project--button">
-                    <p>See more</p>
-                    <div className="wrapper">
+                <div className="btn btn-more">
+                    <div className="btn__txt">See more</div>
+                    <div className="btn__icon">
                         <FiChevronRight size="100%" />
                     </div>
                 </div>
@@ -99,11 +99,6 @@ export const ProjectPage = (
 
             <img src={data.image} alt="projectImage" />
 
-            <script>
-                {/* setColor(data.mainColor, data.mainColor); */}
-                document.getElementById(data.mainColor).style.color = 'blue';
-            </script>
-                
         </div>
 
     return (
@@ -113,10 +108,10 @@ export const ProjectPage = (
                 description="Completed Projects"
             />
 
-            <div className="HorizontalList">
-                <div className="HorizontalList--arrowIcon" >
+            <div className="hlist">
+                <div className="hlist-icon" >
                     <div
-                        className="HorizontalList--leftArrow"
+                        className="hlist-icon__arrowLeft"
                         onClick={prevPage}
                     >
                         <FiChevronLeft size="100%" />
@@ -124,7 +119,7 @@ export const ProjectPage = (
 
                 </div>
 
-                <div className="HorizontalList--body" >
+                <div className="hlist-body" >
                     {
                         // item(ListProject[currentPage], currentPage)
                         ListProject.map((it, index) =>
@@ -135,9 +130,9 @@ export const ProjectPage = (
                     }
                 </div>
 
-                <div className="HorizontalList--arrowIcon" >
+                <div className="hlist-icon" >
                     <div
-                        className="HorizontalList--rightArrow"
+                        className="hlist-icon__arrowRight"
                         onClick={nextPage}
                     >
                         <FiChevronRight size="100%" />
@@ -145,7 +140,7 @@ export const ProjectPage = (
                 </div>
             </div>
 
-            <div className="ProjectPage--3dots">
+            <div className="ProjectPage-3dots">
                 {
                     ListProject.map((it, index) =>
                         <div

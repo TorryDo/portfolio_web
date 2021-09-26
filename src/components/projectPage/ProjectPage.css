@@ -1,8 +1,8 @@
-.HorizontalList {
+.hlist {
   margin-top: 8vh;
 
   width: 100vw;
-  height: 70vh;
+  height: 600px;
 
   display: flex;
   flex-direction: row;
@@ -12,15 +12,18 @@
   /* background-color: aquamarine; */
 }
 
-.HorizontalList--arrowIcon {
+.hlist-icon {
   width: 40px;
   height: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  cursor: pointer;
+
 }
-.HorizontalList--leftArrow {
+.hlist-icon__arrowLeft {
   width: 30px;
   height: 30px;
 
@@ -30,7 +33,7 @@
   background-color: #72f476;
 }
 
-.HorizontalList--rightArrow {
+.hlist-icon__arrowRight {
   width: 30px;
   height: 30px;
 
@@ -40,7 +43,7 @@
   background-color: #72f476;
 }
 
-.HorizontalList--body {
+.hlist-body {
   width: 60vw;
   height: 100%;
   /* background-color: gray; */
@@ -48,7 +51,7 @@
   position: relative;
 
 }
-.HorizontalList--body .item{
+.hlist-body .item{
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -58,7 +61,7 @@
   transform: scale(0.85);
 
 }
-.HorizontalList--body .item.active{
+.hlist-body .item.active{
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -67,7 +70,7 @@
   transform: scale(1);
 }
 
-.HorizontalList--item{
+.hlist-item{
   width: 100%;
   height: 100%;
 
@@ -76,7 +79,7 @@
   align-items: center;
 }
 
-.HorizontalList--item .item--leftDescription{
+.hlist-item .item-leftDescription{
   width: 50%;
   height: 100%;
 
@@ -89,10 +92,10 @@
   gap: 8vh;
   /* background-color: aquamarine; */
 }
-.item--leftDescription > h1 {
+.item-leftDescription > h1 {
   margin-top: 10%;
 }
-.item--leftDescription .description {
+.item-leftDescription .description {
   height: 100%;
   margin-bottom: 20%;
   
@@ -103,31 +106,17 @@
 
   /* background-color: aquamarine; */
 }
-.Project--button {
-  margin-bottom: 50px;
 
-  width: fit-content;
+.btn-more{
+  max-width: 180px;
+  min-width: 160px;
 
-  font-weight: 700;
-
-  padding: 0px 20px;
-  border-radius: 10px;
-  background-color: #72f476;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.Project--button .wrapper{
-  width: 30px;
-  height: 100%;
-}
-
-.HorizontalList--item > img {
-  height: 100%;
-  width: auto;
+.hlist-item > img {
+  max-width: 300px;
 
   margin: auto;
 
@@ -137,8 +126,8 @@
   /* background-color: burlywood; */
 }
 
-/* --------------- 3 dots ---------------- */
-.ProjectPage--3dots{
+/* -------- 3 dots -------- */
+.ProjectPage-3dots{
     padding-top: 100px;
 
     width: 50%;
@@ -150,20 +139,22 @@
     justify-content: center;  
     gap: 15px;  
 }
-.ProjectPage--3dots .dot{
+.ProjectPage-3dots .dot{
     width: 15px;
     height: 15px;
 
     border-radius: 50%;
+    cursor: pointer;
     
     /* background-color: #72f476; */
     background-color: rgb(182, 182, 182);
 }
-.ProjectPage--3dots .dot.active{
+.ProjectPage-3dots .dot.active{
     width: 15px;
     height: 15px;
 
     border-radius: 50%;
+    cursor: pointer;
     
     /* background-color: #72f476; */
     background-color: #18c71e;

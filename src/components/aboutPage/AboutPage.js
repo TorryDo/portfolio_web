@@ -58,17 +58,17 @@ export const AboutPage = (
         </div>
 
     const myAchivement = (it) =>
-        <div className="Content-achievement-item">
+        <div className="content-achievement__item">
             <div className="num">{it.num}</div>
             <div className="des">{it.description}</div>
         </div>
 
     const myContent = () =>
-        <div className="Content">
+        <div className="content">
             <p>
                 {MY_DESCRIPTION()}
             </p>
-            <div className="Content-achievement">
+            <div className="content-achievement">
                 {
                     achievements.map(it =>
                         myAchivement(it)
@@ -93,8 +93,8 @@ export const AboutPage = (
             </div>
 
             <div className="btn btn-downl">
-                <div className="btn-downl__txt">Download CV</div>
-                <div className="btn-downl__icon">
+                <div className="btn__txt">Download CV</div>
+                <div className="btn__icon">
                     <HiDownload size="100%" />
                 </div>
 

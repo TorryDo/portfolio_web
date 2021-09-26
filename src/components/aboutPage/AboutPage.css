@@ -32,7 +32,7 @@
   /* background-color: blueviolet; */
 }
 
-.Content {
+.content {
   width: 40vw;
   /* background-color: aquamarine; */
   display: flex;
@@ -40,13 +40,13 @@
   justify-content: space-between;
 }
 
-.Content > p {
+.content > p {
   color: gray;
   font-size: large;
   margin-left: 50px;
 }
 
-.Content-achievement {
+.content-achievement {
   margin-left: 70px;
   margin-bottom: 25%;
 
@@ -58,20 +58,19 @@
   padding-bottom: 0;
 }
 
-/* ACHIEVEMENT ITEM */
-.Content-achievement-item {
+.content-achievement__item {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 2vh;
 }
-.Content-achievement-item .num {
+.content-achievement__item .num {
   color: black;
   font-size: xx-large;
   font-weight: 700;
   text-align: center;
 }
-.Content-achievement-item .des {
+.content-achievement-item .des {
   color: gray;
   font-weight: 600;
 
@@ -84,15 +83,3 @@
   margin-top: 50px;
 }
 
-.btn-downl__txt{
-  margin-top: auto;
-  margin-bottom: auto;
-  /* background-color: antiquewhite; */
-}
-
-.btn-downl__icon {
-  width: 30px;
-  height: 100%;
-
-  /* background-color: aqua; */
-}

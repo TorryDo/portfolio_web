@@ -31,9 +31,9 @@
   width: 100vw;
   height: fit-content;
 
-  margin-top: 150px;
+  margin-top: 250px;
 
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .SkillsPage {
@@ -42,16 +42,16 @@
 
   margin-top: 200px;
 
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .ContactPage {
   width: 100vw;
   height: fit-content;
 
-  margin-top: 100px;
+  margin-top: 200px;
 
-  background-color: teal;
+  /* background-color: teal; */
 }
 
 /* common  */
@@ -76,11 +76,29 @@
   transition: all .26s ease-out;
 
 }
+.btn__txt{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.btn__icon{
+  width: 30px;
+  height: 100%;
+}
 
 .btn:hover{
   /* opacity: 0.7; */
   box-shadow: 0 0 30px #00ee08;
   background-color: #d4ffd6;
+
+  /* font-size: larger; */
 }
 
+.Hlist{
+  display: flex;
+  flex-direction: row;
+}
+.Vlist{
+  display: flex;
+  flex-direction: column;
+}
 
