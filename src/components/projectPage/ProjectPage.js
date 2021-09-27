@@ -76,7 +76,7 @@ export const ProjectPage = (
     // ------------------ abyss below -----------------------
 
     const item = (data) =>
-        <div className="hlist-item">
+        <div className="project-item">
             <div className="item-leftDescription">
 
                 <h1 id={data.mainColor}>{data.title}</h1>
@@ -108,10 +108,11 @@ export const ProjectPage = (
                 description="Completed Projects"
             />
 
-            <div className="hlist">
-                <div className="hlist-icon" >
+            <div className="Hlist projects">
+
+                <div className="project-icon" >
                     <div
-                        className="hlist-icon__arrowLeft"
+                        className="project-icon__arrow"
                         onClick={prevPage}
                     >
                         <FiChevronLeft size="100%" />
@@ -119,7 +120,7 @@ export const ProjectPage = (
 
                 </div>
 
-                <div className="hlist-body" >
+                <div className="project-body" >
                     {
                         // item(ListProject[currentPage], currentPage)
                         ListProject.map((it, index) =>
@@ -130,9 +131,9 @@ export const ProjectPage = (
                     }
                 </div>
 
-                <div className="hlist-icon" >
+                <div className="project-icon" >
                     <div
-                        className="hlist-icon__arrowRight"
+                        className="project-icon__arrow"
                         onClick={nextPage}
                     >
                         <FiChevronRight size="100%" />

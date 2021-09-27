@@ -1,3 +1,7 @@
+#App{
+  overflow-x: hidden;
+}
+
 .NavBar {
   width: 100vw;
   height: 60px;
@@ -48,6 +52,8 @@
 .ContactPage {
   width: 100vw;
   height: fit-content;
+  
+  padding-bottom: 20vw;
 
   margin-top: 200px;
 
@@ -78,6 +84,9 @@
 .btn__txt {
   margin-top: auto;
   margin-bottom: auto;
+
+  user-select: none;
+
 }
 .btn__icon {
   width: 30px;

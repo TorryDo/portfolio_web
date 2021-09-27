@@ -26,3 +26,12 @@
   align-items: center;
   gap: 5%;
 }
+
+@media screen and (max-width: 46.1875em) {
+  .NavBar .NavBar--Options {
+    padding-right: 1em;
+    font-size: medium;
+    
+  }
+}
+

@@ -18,11 +18,13 @@
 }
 
 .avt__img {
-  width: 15vw;
-  height: 15vw;
+  width: 15em;
+  height: 15em;
 
   min-width: 200px;
   min-height: 200px;
+  max-width: 300px;
+  max-height: 300px;
 
   background: url(../../assets/image/me.png) no-repeat center;
   background-size: cover;
@@ -45,7 +47,7 @@
 
 .content > p {
   color: gray;
-  font-size: large;
+  font-size: x-large;
   /* margin-left: 50px; */
 }
 
@@ -99,9 +101,6 @@
     width: 100%;
     align-items: center;
     padding-top: 50px;
-  }
-
-  .avt__img {
   }
 
   .avt__description {
