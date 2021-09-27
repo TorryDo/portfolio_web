@@ -68,7 +68,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  gap: 8vh;
+  gap: 5em;
   /* background-color: aquamarine; */
 }
 .item-leftDescription > h1 {
@@ -166,12 +166,9 @@
 
     padding-left: 0px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
     align-items: center;
 
-    gap: 8vh;
+    gap: 5em;
     /* background-color: aquamarine; */
   }
 
