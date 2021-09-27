@@ -1,3 +1,3 @@
 #Portfolio
 
-nothing yet : D
+welcome to my portfolio : D
