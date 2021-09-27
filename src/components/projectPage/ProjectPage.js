@@ -81,7 +81,7 @@ export const ProjectPage = (
 
                 <h1 id={data.mainColor}>{data.title}</h1>
 
-                <div className="description">
+                <div className="item-leftDescription__text">
                     <div><b>Type</b> : {data.type}  </div>
                     <div><b>Language</b> : {data.language}  </div>
                     <div><b>Main Feature</b> : {data.mainFeature}  </div>

@@ -1,122 +1,125 @@
-.skills{
-    margin-top: 60px;
-    
-    width: 100%;
-    height: fit-content;
+.skills {
+  margin-top: 60px;
 
-    justify-content: space-around;
+  width: 100%;
+  height: fit-content;
 
-    /* background-color: aquamarine; */
+  justify-content: space-around;
+
+  /* background-color: aquamarine; */
 }
 
-.card-android{
-    width: 350px;
-    height: 550px;
+.card-android {
+  width: 350px;
+  height: 550px;
 
-    margin: auto;
+  margin: auto;
 
-    border-radius: 25px;
-    box-shadow: 0 0 15px gray;
+  border-radius: 25px;
+  box-shadow: 0 0 15px gray;
 
-    /* background-color: bisque; */
+  /* background-color: bisque; */
 }
 
-.card-design{
-    width: 350px;
-    height: 550px;
+.card-design {
+  width: 350px;
+  height: 550px;
 
-    margin: auto;
+  margin: auto;
 
-    border-radius: 25px;
-    box-shadow: 0 0 15px gray;
+  border-radius: 25px;
+  box-shadow: 0 0 15px gray;
 
-    /* background-color: bisque; */
+  /* background-color: bisque; */
 }
 
-.card-top{
-    width: 100%;
+.card-top {
+  width: 100%;
 
-    margin: auto;
+  margin: auto;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    /* background-color: blue; */
+  /* background-color: blue; */
 }
-.card-top__img{
-    width: 35px;
-    height: 35px;
+.card-top__img {
+  width: 35px;
+  height: 35px;
 
-    margin-top: 5%;
-    margin-right: auto;
-    margin-left: auto;
-
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
 }
-.card-top__title{
-    margin-top: 5px;
+.card-top__title {
+  margin-top: 5px;
 
-    width: 100%;
+  width: 100%;
 
-    text-align: center;
-    font-size: large;
-    font-weight: 700;
-    /* color: gray; */
-}
-
-.card-design__content{
-    width: 100%;
-    height: 50px;
-
-    margin-top: 20%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    gap: 25px;
-
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  /* color: gray; */
 }
 
-.design-item{
-    width: 100%;
-    height: 50px;
-    /* background-color: aquamarine; */
+.card-design__content {
+  width: 100%;
+  height: 50px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
+  margin-top: 20%;
 
-    gap: 15px;
-}
-.design-item__iconWrapper{
-    width: 35px;
-    height: 100%;
-
-    margin-left: 15px;
-
-}
-.design-item > p{
-    font-size:medium;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 25px;
 }
 
-.card-android__content{
-    width: 100%;
-    height: auto;
+.design-item {
+  width: 100%;
+  height: 50px;
+  /* background-color: aquamarine; */
 
-    margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+
+  gap: 15px;
 }
-.android-item{
+.design-item__iconWrapper {
+  width: 35px;
+  height: 100%;
 
-    width: 100%;
-    height: fit-content;
+  margin-left: 15px;
+}
+.design-item > p {
+  font-size: medium;
+}
 
-    margin-top: 10px;
-    margin-left: 10%;
+.card-android__content {
+  width: 100%;
+  height: auto;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    gap: 5px;
+  margin-top: 15%;
+}
+.android-item {
+  width: 100%;
+  height: fit-content;
 
-    font-weight: 600;
+  margin-top: 10px;
+  margin-left: 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 5px;
+
+  font-weight: 600;
+}
+
+@media screen and (max-width: 46.1875em) {
+  .skills{
+      flex-direction: column;
+      gap: 6em;
+  }
 }

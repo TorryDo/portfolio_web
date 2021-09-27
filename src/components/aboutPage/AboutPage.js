@@ -41,10 +41,10 @@ export const AboutPage = (
     const avt = () =>
         <div className="avt">
             <div
-                className="avt-img"
+                className="avt__img"
                 alt="avt"
             />
-            <div className="avt-description" >
+            <div className="avt__description" >
                 <p>
                     <b>Name</b> : {MY_NAME}
                 </p>

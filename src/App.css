@@ -73,19 +73,18 @@
 
   cursor: pointer;
 
-  transition: all .26s ease-out;
-
+  transition: all 0.26s ease-out;
 }
-.btn__txt{
+.btn__txt {
   margin-top: auto;
   margin-bottom: auto;
 }
-.btn__icon{
+.btn__icon {
   width: 30px;
   height: 100%;
 }
 
-.btn:hover{
+.btn:hover {
   /* opacity: 0.7; */
   box-shadow: 0 0 30px #00ee08;
   background-color: #d4ffd6;
@@ -93,12 +92,17 @@
   /* font-size: larger; */
 }
 
-.Hlist{
+.Hlist {
   display: flex;
   flex-direction: row;
 }
-.Vlist{
+.Vlist {
   display: flex;
   flex-direction: column;
 }
 
+/* @media screen and (max-width: 46.1875em) {
+  .NavBar {
+    height: 80px;
+  }
+} */

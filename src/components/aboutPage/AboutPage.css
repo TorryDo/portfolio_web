@@ -17,15 +17,18 @@
   /* background-color: aquamarine; */
 }
 
-.avt-img {
+.avt__img {
   width: 15vw;
   height: 15vw;
+
+  min-width: 200px;
+  min-height: 200px;
 
   background: url(../../assets/image/me.png) no-repeat center;
   background-size: cover;
 }
 
-.avt-description {
+.avt__description {
   width: 70%;
   margin-top: 20px;
   text-align: start;
@@ -43,11 +46,11 @@
 .content > p {
   color: gray;
   font-size: large;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .content-achievement {
-  margin-left: 70px;
+  /* margin-left: 70px; */
   margin-bottom: 25%;
 
   display: flex;
@@ -79,7 +82,55 @@
 
 /* BOT */
 
-.btn-downl{
+.btn-downl {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 46.1875em) {
+  .AboutPage-mid {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: aquamarine; */
+  }
+
+  .avt {
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .avt__img {
+  }
+
+  .avt__description {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+
+  .content > p {
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: larger;
+    padding-top: 50px;
+
+    text-align: center;
+  }
+  .content-achievement {
+    margin-top: 50px;
+    margin-bottom: 25%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8vw;
+
+    /* background-color: antiquewhite; */
+  }
+}
