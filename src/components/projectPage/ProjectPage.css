@@ -39,6 +39,8 @@
 
   transition-duration: 0.4s;
   transform: scale(0.9);
+
+  z-index: 0;
 }
 .project-body .item.active {
   width: 100%;
@@ -47,6 +49,8 @@
   position: absolute;
   transition-duration: 1.5s;
   transform: scale(1);
+
+  z-index: 1;
 }
 
 .project-item {
@@ -144,6 +148,7 @@
 
 @media screen and (max-width: 46.1875em) {
   .project-item {
+    margin-top: 3em;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -184,6 +189,10 @@
 
   .item-leftDescription__text {
     display: none;
+  }
+
+  .ProjectPage-3dots{
+    margin-top: 2em;
   }
 
 }

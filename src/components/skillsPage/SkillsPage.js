@@ -60,7 +60,7 @@ export const SkillsPage = ({ className }) => {
 
 
     const androidItem = (data) =>
-        <div className="card-android">
+        <div className="card-skill card-android">
             {itemTitle(data.img, data.text)}
 
             <div className="card-android__content">
@@ -74,7 +74,7 @@ export const SkillsPage = ({ className }) => {
         </div>
 
     const designItem = (data) =>
-        <div className="card-design">
+        <div className="card-skill card-design">
             {itemTitle(data.img, data.text)}
 
             <div className="card-design__content">
