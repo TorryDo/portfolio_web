@@ -12,7 +12,7 @@
 
 .contact__information {
   width: 50%;
-  height: 100%;
+  height: fit-content;
 
   margin-left: 10vw;
 
@@ -60,7 +60,7 @@
 
 .contact__form .name {
   width: 50%;
-  height: 35px;
+  height: 3em;
 
   border-radius: 10px;
   outline: none;
@@ -74,7 +74,7 @@
 }
 .contact__form .email {
   width: 50%;
-  height: 35px;
+  height: 3em;
 
   border-radius: 10px;
   outline: none;
@@ -88,7 +88,7 @@
 }
 .contact__form .message {
   width: 70%;
-  height: 150px;
+  height: 15em;
 
   border-radius: 10px;
   outline: none;
@@ -127,7 +127,21 @@
 
     gap: 5em;
   }
+
+  .contact__information {
+    width: fit-content;
+    height: fit-content;
+
+    margin-left: 0px;
+
+    /* justify-content: baseline; */
+    gap: 2em;
+
+    /* background-color: aquamarine; */
+  }
+
   .contact__form {
+    width: 90%;
     align-items: center;
     gap: 1.5em;
     /* background-color: aquamarine; */
@@ -135,7 +149,7 @@
 
   .contact__form .name {
     width: 70%;
-    height: 35px;
+    height: 3em;
 
     border-radius: 10px;
     outline: none;
@@ -149,7 +163,7 @@
   }
   .contact__form .email {
     width: 70%;
-    height: 35px;
+    height: 3em;
 
     border-radius: 10px;
     outline: none;
@@ -161,4 +175,6 @@
     font-family: "Quicksand";
     font-weight: 600;
   }
+
+  
 }
