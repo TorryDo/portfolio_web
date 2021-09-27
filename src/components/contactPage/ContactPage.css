@@ -67,7 +67,7 @@
   border: 0;
   padding: 5px 10px;
 
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
 
   background-color: #d9ffda;
   font-weight: 600;
@@ -83,7 +83,7 @@
 
   background-color: #d9ffda;
 
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-weight: 600;
 }
 .contact__form .message {
@@ -98,13 +98,13 @@
 
   background-color: #d9ffda;
 
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-weight: 600;
 }
 
 .btn-send {
   width: fit-content;
-  height: fit-content;
+  height: 2em;
 
   margin-top: 20px;
   padding: 15px;
@@ -112,11 +112,11 @@
   border: 0;
   border-radius: 10px;
 
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-weight: 700;
   font-size: medium;
 
-  background-color: #78F27B;
+  background-color: #78f27b;
 }
 
 @media screen and (max-width: 46.1875em) {
@@ -127,8 +127,38 @@
 
     gap: 5em;
   }
-  .contact__form{
+  .contact__form {
     align-items: center;
+    gap: 1.5em;
     /* background-color: aquamarine; */
+  }
+
+  .contact__form .name {
+    width: 70%;
+    height: 35px;
+
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    padding: 5px 10px;
+
+    font-family: "Quicksand";
+
+    background-color: #d9ffda;
+    font-weight: 600;
+  }
+  .contact__form .email {
+    width: 70%;
+    height: 35px;
+
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    padding: 5px 10px;
+
+    background-color: #d9ffda;
+
+    font-family: "Quicksand";
+    font-weight: 600;
   }
 }
