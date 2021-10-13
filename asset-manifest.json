@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ee9bf23.chunk.css",
-    "main.js": "/static/js/main.2a309121.chunk.js",
-    "main.js.map": "/static/js/main.2a309121.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.af37d888.js",
-    "runtime-main.js.map": "/static/js/runtime-main.af37d888.js.map",
-    "static/js/2.0776a14c.chunk.js": "/static/js/2.0776a14c.chunk.js",
-    "static/js/2.0776a14c.chunk.js.map": "/static/js/2.0776a14c.chunk.js.map",
-    "static/js/3.e1516795.chunk.js": "/static/js/3.e1516795.chunk.js",
-    "static/js/3.e1516795.chunk.js.map": "/static/js/3.e1516795.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.1ee9bf23.chunk.css.map": "/static/css/main.1ee9bf23.chunk.css.map",
-    "static/js/2.0776a14c.chunk.js.LICENSE.txt": "/static/js/2.0776a14c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/portfolio_web/static/css/main.33bf5f35.chunk.css",
+    "main.js": "/portfolio_web/static/js/main.78fd838e.chunk.js",
+    "main.js.map": "/portfolio_web/static/js/main.78fd838e.chunk.js.map",
+    "runtime-main.js": "/portfolio_web/static/js/runtime-main.60a30e88.js",
+    "runtime-main.js.map": "/portfolio_web/static/js/runtime-main.60a30e88.js.map",
+    "static/js/2.e7bb5572.chunk.js": "/portfolio_web/static/js/2.e7bb5572.chunk.js",
+    "static/js/2.e7bb5572.chunk.js.map": "/portfolio_web/static/js/2.e7bb5572.chunk.js.map",
+    "static/js/3.2b08fbd4.chunk.js": "/portfolio_web/static/js/3.2b08fbd4.chunk.js",
+    "static/js/3.2b08fbd4.chunk.js.map": "/portfolio_web/static/js/3.2b08fbd4.chunk.js.map",
+    "index.html": "/portfolio_web/index.html",
+    "static/css/main.33bf5f35.chunk.css.map": "/portfolio_web/static/css/main.33bf5f35.chunk.css.map",
+    "static/js/2.e7bb5572.chunk.js.LICENSE.txt": "/portfolio_web/static/js/2.e7bb5572.chunk.js.LICENSE.txt",
+    "static/media/AboutPage.css": "/portfolio_web/static/media/me.310f26fb.png",
+    "static/media/transe_mockup.8166296d.png": "/portfolio_web/static/media/transe_mockup.8166296d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.af37d888.js",
-    "static/js/2.0776a14c.chunk.js",
-    "static/css/main.1ee9bf23.chunk.css",
-    "static/js/main.2a309121.chunk.js"
+    "static/js/runtime-main.60a30e88.js",
+    "static/js/2.e7bb5572.chunk.js",
+    "static/css/main.33bf5f35.chunk.css",
+    "static/js/main.78fd838e.chunk.js"
   ]
 }
